@@ -1,0 +1,286 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.pic {
+    width: 50%;
+
+}
+
+.pic img {
+    width: 80%;
+    border: 5px solid #F1E0C5;
+}
+
+.one {
+    background-image: url("images/pexels-ajay-donga-2174656.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.two-2 {
+    background-image: url("images/pexels-leon-macapagal-2346008.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.three {
+    background-image: url("images/pexels-suzukii-xingfu-872831.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.text {
+
+    width: 50%;
+
+    margin-left: 130px;
+}
+
+.text h1 {
+    color: white;
+    line-height: 1;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.text p {
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.wraper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+.colam {
+    margin-left: 80px;
+    width: 60%;
+    padding: 20px;
+    background-color: 2a2b2a;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.colam img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+
+}
+
+.colam h2 {
+    color: #f58551;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.colam p {
+    text-align: justify;
+
+}
+
+.colam a {
+    text-decoration: none;
+    background-color: #566573;
+    color: white;
+    padding: 5px;
+    border-radius: 13px;
+    transition: all as ease-in-out;
+
+}
+
+.colam a:hover {
+    background-color: #f0b27a;
+    padding: 7px;
+}
+
+
+/*---------------
+ tabile style 
+ -----------------*/
+table {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+
+}
+
+td {
+    text-align: center;
+}
+
+/*-----------------
+ form style 
+ ------------------*/
+
+.toper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #DA667B; */
+}
+
+.form-style {
+    background-color: #3A2C34;
+    width: 30%;
+
+}
+
+.form-style input {
+    width: 80%;
+    margin-left: 20px;
+    padding: 6px 8px;
+}
+
+.form-style h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.login-button input {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    background-color: #E7CB9C;
+}
+
+.file {
+    color: white;
+}
+
+.login-button {
+    margin-bottom: 50px;
+}
+
+.radio-text {
+    color: white;
+    text-align: center;
+}
+
+.radio-button {
+    color: white;
+}
+
+.radio-button input {
+    /* color: white; */
+    width: 7%;
+    margin-left: 180px;
+
+}
+
+/*--------------
+ fotter style
+ ---------------- */
+.bottom {
+    width: 100%;
+    height: 100px;
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.bottom h2 {
+    color: white;
+
+}
+
+.about {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*---------------
+  media device 
+  ----------------*/
+@media only screen and (max-width:688px) {
+    .swiper-slide {
+        display: block;
+        height: 74vh;
+    }
+
+    .text {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        width: 90%;
+        margin-left: 13px;
+    }
+
+    .text h1 {
+        font-size: 40px;
+    }
+
+    .text br {
+        /* font-size: 10px; */
+        display: none;
+    }
+
+    .pic {
+        margin: 0 auto;
+
+        width: 70%;
+    }
+
+    .pic img {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .wraper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .colam {
+        margin-left: 18px;
+        width: 80%;
+    }
+
+    table {
+        display: none;
+        width: 330px;
+    }
+
+    .form-style {
+        width: 80%;
+    }
+
+    .radio-button input {
+        margin-left: 120px;
+    }
+}
